@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #aab7c9;
+  color: #effbfa;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #38363b;
+}
+
+#mainNavbar .navbar-brand {
+  font-size: 28px;
+  color: #effbfa;
+}
+
+.nav-link {
+  color: #666876;
+  transition: all ease 0.2s;
+}
+
+.nav-link:hover {
+  color: #effbfa;
+}
+
+section {
+  padding: 0;
+}
+
+#headingGroup span {
+  color: #9b360f;
+}
+
+#headingGroup h1 {
+  font-size: 60px;
+  letter-spacing: 0.275em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+    font-size: 38px;
+    letter-spacing: 0.275em;
+    text-transform: uppercase;
+  }
+}
